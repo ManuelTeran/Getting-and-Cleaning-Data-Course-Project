@@ -3,7 +3,7 @@
 ############################################
 ### Getting and Cleanning Data Couse Project
 ###   Autor: Manuel Terán Melgarejo
-###   Date:  8 mMay 2016
+###   Date:  8 May 2016
 ############################################
 
 library(dplyr)
@@ -162,7 +162,7 @@ group.summarize<-summarise(group,
                            )
 
 #####################################################################
-## writel tables to scv file (meredataset.csv and groupsummarize.csv)
+## write tables to csv file (meredataset.csv and groupsummarize.csv)
 #####################################################################
 
 write.table(x.out,"./mergedataset.csv")
